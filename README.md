@@ -70,9 +70,8 @@ networkmanager-openvpn networkmanager-vpnc 1pass-autologin
    * Tiled Menu
  
 ### KDE Window Rules
-* No border
+* No titlebar and frame (force)
    * Spotify
-   * Firefox
    * Terminator
 
 ### KDE Keyboard Shortcuts
