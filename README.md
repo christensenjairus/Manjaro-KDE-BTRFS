@@ -62,7 +62,6 @@ networkmanager-openvpn networkmanager-vpnc 1pass-autologin
 * Install Widgets
    * Aesthetic Clock
    * Plasma Customization Saver
-   # * Display Settings
    * Event Calendar
    * MediaController_Plus
    * Plasma Drawer
