@@ -53,21 +53,22 @@ networkmanager-openvpn networkmanager-vpnc 1pass-autologin
 ```
 
 ### KDE Theme Settings
-* Install Widgets
-   * Aethetic Clock
-   * Plasma Configuration Saver
-   * Display Settings
-   * Event Calendar
-   * MediaController_Plus
-   * Plasma Drawer
-   * System Load Viewer
-   * Tiled Menu
-
-* Install Plasma Theme
+* Install Plasma Style
    * Breeze AlphaBlack
  
 * Install Color theme
    * Atrium Dark (use `from current wallpaper` to get colors right)
+    
+* Install Widgets
+   * Aesthetic Clock
+   * Plasma Customization Saver
+   # * Display Settings
+   * Event Calendar
+   * MediaController_Plus
+   * Plasma Drawer
+   * System Load Viewer
+   * Simple System Monitor
+   * Tiled Menu
  
 ### KDE Window Rules
 No border
