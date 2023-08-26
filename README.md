@@ -70,10 +70,10 @@ networkmanager-openvpn networkmanager-vpnc 1pass-autologin
    * Tiled Menu
  
 ### KDE Window Rules
-No border
-* Spotify
-* Firefox
-* Terminator
+* No border
+ * Spotify
+ * Firefox
+ * Terminator
 
 ### KDE Keyboard Shortcuts
 * Navigator > Quit (disable from ctrl+q)
