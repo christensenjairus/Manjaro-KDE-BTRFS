@@ -24,7 +24,7 @@ makepkg -si
 ### Install Quality of Life Packages
 ```bash
 # CLI basics
-yay -S base-devel vim git wget curl zsh tree tmux terminator 
+yay -S base-devel nvim git wget curl zsh tree tmux terminator 
 
 # Background services
 yay -S qemu-guest-agent dropbox tlp
