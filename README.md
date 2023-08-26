@@ -77,7 +77,7 @@ networkmanager-openvpn networkmanager-vpnc 1pass-autologin
 ### KDE Keyboard Shortcuts
 * Navigator > Quit (disable from ctrl+q)
 * Kwin > Close (ctrl+q)
-* Terminator (host+enter)
+* Terminator (meta+return)
 
 ### KDE AutoStart
 * 1Password
