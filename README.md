@@ -20,7 +20,7 @@ git clone https://aur.archlinux.org/yay-bin
 cd yay-bin
 makepkg -si
 cd ..
-z#
+sudo rm -r yay-bin
 ```
 
 ### Install Quality of Life Packages
@@ -53,6 +53,25 @@ networkmanager-openvpn networkmanager-vpnc 1pass-autologin
 
 # Not needed anymore?
 # v4l2loopback-dkms linux-headers
+```
+
+### Install ZSH Extensions
+```bash
+# oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# powerlevel10k
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+# FYI - need to change theme in .zshrc
+#    ZSH_THEME="powerlevel10k/powerlevel10k"
+
+# zsh auto-suggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+
+# zsh syntax highlighting
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+# FYI - need to add plugins to .zshrc (
+#    plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 ```
 
 ### KDE Settings
