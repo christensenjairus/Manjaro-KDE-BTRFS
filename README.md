@@ -19,6 +19,8 @@ Run as user NOT ROOT!
 git clone https://aur.archlinux.org/yay-bin
 cd yay-bin
 makepkg -si
+cd ..
+z#
 ```
 
 ### Install Quality of Life Packages
