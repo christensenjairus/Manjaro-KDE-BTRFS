@@ -80,9 +80,6 @@ wget https://git.io/v5Zww -O $HOME"/.config/terminator/plugins/terminator-themes
 ```
 
 ### KDE Settings
-* Activities
-   * 'HomeLab'
-   * 'Media'
 
 ### KDE Theme Settings
 * Install Plasma Style
@@ -100,25 +97,4 @@ wget https://git.io/v5Zww -O $HOME"/.config/terminator/plugins/terminator-themes
    * System Load Viewer
    * Simple System Monitor
    * Tiled Menu
- 
-### KDE Window Rules
-* No titlebar and frame (force)
-   * Spotify
-   * Terminator
-   * Slack
- 
-* Activities (apply initially)
-   * Slack -> Homelab
-   * Spotify, Plexamp, Plex, Pithos -> Media
-
-### KDE Keyboard Shortcuts
-* Navigator > Quit (disable from ctrl+q)
-* Kwin > Close (ctrl+q)
-* Terminator (meta+return)
-
-### KDE AutoStart
-* 1Password
-* Firefox
-* Slack
-* Terminator
 
