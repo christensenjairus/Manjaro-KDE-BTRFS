@@ -56,7 +56,7 @@ networkmanager-openvpn networkmanager-vpnc 1pass-autologin
 # v4l2loopback-dkms linux-headers
 ```
 
-### Install ZSH Extensions
+### Install CLI Extensions
 ```bash
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -73,6 +73,10 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugi
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
 # FYI - need to add plugins to .zshrc (
 #    plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+
+# terminator themes
+mkdir -p $HOME/.config/terminator/plugins
+wget https://git.io/v5Zww -O $HOME"/.config/terminator/plugins/terminator-themes.py"
 ```
 
 ### KDE Settings
