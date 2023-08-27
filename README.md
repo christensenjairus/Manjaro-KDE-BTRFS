@@ -43,7 +43,8 @@ remmina timeshift wireshark-qt piavpn-bin 1password deja-dup
 # CLI apps
 yay -S docker docker-compose grub-btrfs pianobar metasploit    \
 postgresql lolcat neofetch bpytop lf downgrade thefuck nmap    \
-timeshift-autosnap kubectl kubectx helm k9s ipinfo
+timeshift-autosnap kubectl kubectx helm k9s ipinfo             \
+python-requests
 
 # Other
 yay -S ttf-jetbrains-mono ttf-jetbrains-mono-nerd             \
