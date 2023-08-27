@@ -41,7 +41,7 @@ remmina timeshift wireshark-qt piavpn-bin 1password deja-dup
 # CLI apps
 yay -S docker docker-compose grub-btrfs pianobar metasploit    \
 postgresql lolcat neofetch bpytop lf downgrade thefuck nmap    \
-timeshift-autosnap kubectl kubectx helm ipinfo
+timeshift-autosnap kubectl kubectx helm k9s ipinfo
 
 # Other
 yay -S ttf-jetbrains-mono ttf-jetbrains-mono-nerd             \
@@ -52,6 +52,11 @@ networkmanager-openvpn networkmanager-vpnc 1pass-autologin
 # Not needed anymore?
 # v4l2loopback-dkms linux-headers
 ```
+
+### KDE Settings
+* Activities
+   * 'HomeLab'
+   * 'Media'
 
 ### KDE Theme Settings
 * Install Plasma Style
@@ -74,6 +79,11 @@ networkmanager-openvpn networkmanager-vpnc 1pass-autologin
 * No titlebar and frame (force)
    * Spotify
    * Terminator
+   * Slack
+ 
+* Activities (apply initially)
+   * Slack -> Homelab
+   * Spotify, Plexamp, Plex, Pithos -> Media
 
 ### KDE Keyboard Shortcuts
 * Navigator > Quit (disable from ctrl+q)
