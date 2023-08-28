@@ -26,7 +26,7 @@ sudo rm -r yay-bin
 ### Install Quality of Life Packages
 ```bash
 # CLI basics
-yay -S base-devel neovim git wget curl zsh tree tmux          \
+yay -S base-devel neovim vim git wget curl zsh tree tmux      \
 terminator 
 
 # Background services
