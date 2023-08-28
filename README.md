@@ -50,7 +50,8 @@ python-requests
 yay -S ttf-jetbrains-mono ttf-jetbrains-mono-nerd             \
 ttf-meslo-nerd-font-powerlevel10k zsh-theme-powerlevel10k     \
 networkmanager-pptp networkmanager-openconnect                \
-networkmanager-openvpn networkmanager-vpnc 1pass-autologin
+networkmanager-openvpn networkmanager-vpnc 1pass-autologin    \
+manjaro-settings-samba
 
 # Not needed anymore?
 # v4l2loopback-dkms linux-headers
