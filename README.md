@@ -44,14 +44,14 @@ remmina timeshift wireshark-qt piavpn-bin 1password deja-dup
 yay -S docker docker-compose grub-btrfs pianobar metasploit    \
 postgresql lolcat neofetch bpytop lf downgrade thefuck nmap    \
 timeshift-autosnap kubectl kubectx helm k9s ipinfo-cli docker  \
-python-requests 
+python-requests
 
 # Other
 yay -S ttf-jetbrains-mono ttf-jetbrains-mono-nerd             \
 ttf-meslo-nerd-font-powerlevel10k zsh-theme-powerlevel10k     \
 networkmanager-pptp networkmanager-openconnect                \
 networkmanager-openvpn networkmanager-vpnc 1pass-autologin    \
-manjaro-settings-samba
+manjaro-settings-samba avahi bind
 
 # Not needed anymore?
 # v4l2loopback-dkms linux-headers
