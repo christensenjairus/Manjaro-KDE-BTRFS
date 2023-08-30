@@ -38,7 +38,7 @@ nextcloud-client brave-bin teams-for-linux jetbrains-toolbox  \
 pithos spotify plexamp-appimage google-chrome tlpui gimp      \
 visual-studio-code-bin plex-media-player github-desktop-bin   \
 onedrivegui-git onedrive_tray-git obs-studio burpsuite        \
-remmina timeshift wireshark-qt piavpn-bin 1password deja-dup
+remmina timeshift wireshark-qt 1password deja-dup
 
 # CLI apps
 yay -S docker docker-compose grub-btrfs pianobar metasploit    \
@@ -78,6 +78,13 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/p
 # terminator themes
 mkdir -p $HOME/.config/terminator/plugins
 wget https://git.io/v5Zww -O $HOME"/.config/terminator/plugins/terminator-themes.py"
+```
+
+### PIA VPN
+```bash
+# Download AMD64 linux .run file
+chmod +x ./pia-linux-x.x.x-xxxxx.run
+./pia-linux-x.x.x-xxxxx.run
 ```
 
 ### KDE Settings
