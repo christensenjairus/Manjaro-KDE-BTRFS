@@ -44,7 +44,7 @@ remmina timeshift wireshark-qt 1password deja-dup
 yay -S docker docker-compose grub-btrfs pianobar metasploit    \
 postgresql lolcat neofetch bpytop lf downgrade thefuck nmap    \
 timeshift-autosnap kubectl kubectx helm k9s ipinfo-cli docker  \
-python-requests dirbuster kustomize
+python-requests dirbuster kustomize playerctl
 
 # Other
 yay -S ttf-jetbrains-mono ttf-jetbrains-mono-nerd             \
