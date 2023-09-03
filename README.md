@@ -89,6 +89,21 @@ chmod +x ./pia-linux-x.x.x-xxxxx.run
 ./pia-linux-x.x.x-xxxxx.run
 ```
 
+### HomeLab Repos
+```bash
+ssh-keygen
+# copy key into Gitlab so the git clone with ssh works
+mkdir ~/HomeLab
+pushd ~/HomeLab
+git clone git@gitlab.christensencloud.us:homelab/Kubernetes.git
+mkdir ~/.kube
+cp ./Kubernetes/kubeconfig.yaml ~/.kube/config
+chmod 600 ~/.kube/config
+git clone git@gitlab.christensencloud.us:homelab/Splunk.git
+git clone git@gitlab.christensencloud.us:homelab/Wazuh.git
+popd
+```
+
 ### KDE Settings
 
 ### KDE Theme Settings
