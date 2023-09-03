@@ -3,9 +3,11 @@
 # Install
 Install Manjaro
 * Open-Source drivers
+* Colemak-DH (for laptop only)
 * BTRFS
 * Swap to file
 * Encrypt system (hard pw)
+* FreeOffice Suite
 
 # Setup
 ### Pamac repos and update
