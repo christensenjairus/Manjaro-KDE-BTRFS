@@ -5,7 +5,9 @@ Install Manjaro
 * Open-Source drivers
 * Colemak-DH (for laptop only)
 * BTRFS
-* Swap to file
+* Swap
+    * Desktop -> Swap to file
+    * Laptop -> Swap with Hiberntate
 * Encrypt system (hard pw)
 * FreeOffice Suite
 
