@@ -30,14 +30,14 @@ sudo rm -r yay-bin
 ### Install Quality of Life Packages
 ```bash
 # CLI basics
-yay -S base-devel neovim vim git wget curl zsh tree tmux      \
+yay -S --noconfirm base-devel neovim vim git wget curl zsh tree tmux      \
 terminator 
 
 # Background services
-yay -S qemu-guest-agent dropbox tlp
+yay -S --noconfirm qemu-guest-agent dropbox tlp
 
 # Desktop apps
-yay -S discord slack-desktop joplin-desktop firefox zoom      \
+yay -S --noconfirm discord slack-desktop joplin-desktop firefox zoom      \
 nextcloud-client brave-bin teams-for-linux jetbrains-toolbox  \
 pithos spotify plexamp-appimage google-chrome tlpui gimp      \
 visual-studio-code-bin plex-media-player github-desktop-bin   \
@@ -45,13 +45,13 @@ onedrivegui-git onedrive_tray-git obs-studio burpsuite        \
 remmina timeshift wireshark-qt 1password deja-dup
 
 # CLI apps
-yay -S docker docker-compose grub-btrfs pianobar metasploit    \
+yay -S --noconfirm docker docker-compose grub-btrfs pianobar metasploit    \
 postgresql lolcat neofetch bpytop lf downgrade thefuck nmap    \
 timeshift-autosnap kubectl kubectx helm k9s ipinfo-cli docker  \
 python-requests dirbuster kustomize playerctl
 
 # Other
-yay -S ttf-jetbrains-mono ttf-jetbrains-mono-nerd             \
+yay -S --noconfirm ttf-jetbrains-mono ttf-jetbrains-mono-nerd             \
 ttf-meslo-nerd-font-powerlevel10k zsh-theme-powerlevel10k     \
 networkmanager-pptp networkmanager-openconnect                \
 networkmanager-openvpn networkmanager-vpnc 1pass-autologin    \
