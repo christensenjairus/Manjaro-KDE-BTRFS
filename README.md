@@ -55,11 +55,7 @@ yay -S --noconfirm ttf-jetbrains-mono ttf-jetbrains-mono-nerd             \
 ttf-meslo-nerd-font-powerlevel10k zsh-theme-powerlevel10k                 \
 networkmanager-pptp networkmanager-openconnect                            \
 networkmanager-openvpn networkmanager-vpnc 1pass-autologin                \
-manjaro-settings-samba avahi bind cnijfilter2 go-yq pavucontrol           \
-linux61-virtualbox-host-modules virtualbox virtualbox-guest-iso
-
-# Not needed anymore?
-# v4l2loopback-dkms linux-headers
+manjaro-settings-samba avahi bind cnijfilter2 go-yq pavucontrol
 ```
 
 ### Install CLI Extensions
@@ -108,6 +104,16 @@ kubectl krew install neat
 # Download AMD64 linux .run file
 chmod +x ./pia-linux-x.x.x-xxxxx.run
 ./pia-linux-x.x.x-xxxxx.run
+```
+
+### VirtualBox
+```bash
+yay -S linux61-headers
+pushd ~/
+wget https://download.virtualbox.org/virtualbox/7.0.10/VirtualBox-7.0.10-158379-Linux_amd64.run
+chmod +x ./VirtualBox-7.0.10-158379-Linux_amd64.run
+./VirtualBox-7.0.10-158379-Linux_amd64.run
+popd
 ```
 
 ### HomeLab Repos
