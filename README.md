@@ -113,7 +113,7 @@ yay -S linux61-headers
 pushd ~/
 wget https://download.virtualbox.org/virtualbox/7.0.10/VirtualBox-7.0.10-158379-Linux_amd64.run
 chmod +x ./VirtualBox-7.0.10-158379-Linux_amd64.run
-./VirtualBox-7.0.10-158379-Linux_amd64.run
+sudo ./VirtualBox-7.0.10-158379-Linux_amd64.run
 popd
 ```
 
