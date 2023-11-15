@@ -55,8 +55,7 @@ yay -S --noconfirm ttf-jetbrains-mono ttf-jetbrains-mono-nerd             \
 ttf-meslo-nerd-font-powerlevel10k zsh-theme-powerlevel10k                 \
 networkmanager-pptp networkmanager-openconnect                            \
 networkmanager-openvpn networkmanager-vpnc 1pass-autologin                \
-manjaro-settings-samba avahi bind cnijfilter2 go-yq pavucontrol qsixmixer \
-alsa-scarlett-gui
+manjaro-settings-samba avahi bind cnijfilter2 go-yq pavucontrol qsixmixer
 ```
 
 ### Install CLI Extensions
@@ -94,6 +93,7 @@ wget https://git.io/v5Zww -O $HOME"/.config/terminator/plugins/terminator-themes
   tar zxvf "${KREW}.tar.gz" &&
   ./"${KREW}" install krew
 )
+# Add the following to ~/.zshrc
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 # restart shell
 # install neat
