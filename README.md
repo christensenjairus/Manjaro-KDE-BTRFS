@@ -42,7 +42,7 @@ nextcloud-client brave-bin teams-for-linux jetbrains-toolbox              \
 pithos spotify plexamp-appimage google-chrome tlpui gimp                  \
 visual-studio-code-bin plex-media-player github-desktop-bin               \
 onedrivegui-git onedrive_tray-git obs-studio burpsuite                    \
-remmina timeshift wireshark-qt 1password deja-dup
+remmina timeshift wireshark-qt 1password deja-dup gparted
 
 # CLI apps
 yay -S --noconfirm docker docker-compose grub-btrfs pianobar metasploit   \
