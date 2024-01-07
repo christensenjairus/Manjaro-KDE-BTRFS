@@ -55,7 +55,8 @@ yay -S --noconfirm ttf-jetbrains-mono ttf-jetbrains-mono-nerd             \
 ttf-meslo-nerd-font-powerlevel10k zsh-theme-powerlevel10k                 \
 networkmanager-pptp networkmanager-openconnect                            \
 networkmanager-openvpn networkmanager-vpnc 1pass-autologin                \
-manjaro-settings-samba avahi bind cnijfilter2 go-yq pavucontrol qsixmixer
+manjaro-settings-samba avahi bind cnijfilter2 go-yq pavucontrol qsixmixer \
+python-pygments
 ```
 
 ### Install CLI Extensions
